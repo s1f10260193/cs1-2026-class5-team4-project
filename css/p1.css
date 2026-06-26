@@ -60,22 +60,3 @@ main p {
     background-color: #4f7c4d;
     transform: scale(1.05);
 }
-
-/* フッター */
-footer {
-    margin-top: 60px;
-    background-color: #4f7c4d;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-footer p:first-child {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-footer p {
-    margin: 8px 0;
-}
