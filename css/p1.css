@@ -1,0 +1,64 @@
+/* 全体 */
+body {
+    font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+    background-color: #f5f2e8;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+/* ヘッダー */
+header {
+    background-color: #5c8d63;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* メイン */
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+h2 {
+    color: #4d704d;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* 映画一覧ボタン */
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 35px;
+    background-color: #7aa874;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #5c8d63;
+}
+
+/* フッター */
+footer {
+    margin-top: 60px;
+    background-color: #5c8d63;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 8px 0;
+}
