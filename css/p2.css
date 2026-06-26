@@ -1,0 +1,81 @@
+/* ページ全体 */
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+    background: linear-gradient(to bottom, #dff5e3, #fdf6e3);
+    color: #333;
+}
+
+/* タイトル */
+h1 {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #4f7c4d;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* 映画一覧 */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 50px 30px;
+}
+
+/* 映画カード */
+.movie {
+    width: 280px;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+/* マウスを乗せたとき */
+.movie:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* 画像 */
+.movie img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* 映画タイトル */
+.movie h2 {
+    color: #3c6e47;
+    margin-top: 15px;
+}
+
+/* 説明 */
+.movie p {
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+/* 詳細を見るボタン */
+.movie a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #67a45a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.movie a:hover {
+    background-color: #4f7c4d;
+}

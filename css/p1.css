@@ -1,0 +1,62 @@
+/* ページ全体 */
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+    background: linear-gradient(to bottom, #dff5e3, #fdf6e3);
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #4f7c4d;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+/* メイン */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+main h2 {
+    color: #3c6e47;
+    font-size: 32px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+/* ボタン */
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #67a45a;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #4f7c4d;
+    transform: scale(1.05);
+}
